@@ -1,0 +1,5 @@
+email,name,password,permissions
+admin@example.com,Admin,password,admin
+cameron@example.com,Cameron,password,setosa_user
+bill@example.com,Bill,password,versicolor_user
+janet@example.com,Janet,password,virginica_user

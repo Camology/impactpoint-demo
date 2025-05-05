@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.env
+.venv
+.Python
+pip-selfcheck.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Flask
+instance/
+.webassets-cache
+
+# Logs
+*.log
+logs/
+
+# Local development
+.env
+.env.local
+*.db
+*.sqlite3 
