@@ -9,7 +9,7 @@ What I worked on:
 
 I first started on the backend, its flask/gunicorn based, loads the provided iris.csv as a fake "database" with pandas, similarly loads a list of "users" to login with and permissions are set with. Then I made some standard APIs for logging in, getting users permissions, and retrieving data by either variety (from permissions) or all of the data (for admins)
 
-After this was working correctly and tested via curl (postman eventually) I started on the frontend. I as a bit rusty with react but enough tutorials exist online that I got this working in a nice enough state. You start at a login page where any user from the users.csv will work, no password field is currently used as per the instructions. Once you login you are presented with the data corresponding to that users permissions, and a slider along the Y-axis to limit the range of values. You can flip between night and light mode on here as well as the login page, it should persist across both, but the data is reset when toggling. You can then log out as needed.
+After this was working correctly and tested via curl (postman eventually) I started on the frontend. I am a bit rusty with react but enough tutorials exist online that I got this working in a nice enough state. You start at a login page where any user from the users.csv will work, no password field is currently used as per the instructions. Once you login you are presented with the data corresponding to that users permissions, and a slider along the Y-axis to limit the range of values. You can flip between night and light mode on here as well as the login page, it should persist across both, but the data is reset when toggling. You can then log out as needed.
 
 For what I prioritized:
 
