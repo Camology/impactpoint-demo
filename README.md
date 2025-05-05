@@ -3,6 +3,7 @@ For anyone else reviewing this, this was made for submission in an interview pro
 Should be able to run this by just running ./startup.sh from the react-frontend folder and ./bootstrap.sh from the python-flask-backend folder.
 
 Does assume you have python3.13 and yarn installed
+
 Users are defined in python-flask-backend/data/users.csv
 
 To remove data from the chart just click on it from the legend, it will cross out and remove itself from the chart
