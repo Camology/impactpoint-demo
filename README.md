@@ -1,3 +1,5 @@
+For anyone else reviewing this, this was made for submission in an interview process with a company. The code will be archived once the interview process is complete.
+
 Should be able to run this by just running ./startup.sh from the react-frontend folder and ./bootstrap.sh from the python-flask-backend folder.
 
 Does assume you have python3.13 and yarn installed
